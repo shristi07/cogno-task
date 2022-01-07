@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bot.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <span id="myLabel">Try me! Happy to Help.</span>
+    <div onclick="handleOpen()" id="myIcon">
+        <i style="margin-bottom: 7px; font-size:30px;color:white;" class="glyphicon glyphicon-user"></i>
+    </div>
+    <div id="myDIV" class="bot-container">
+        <div class="header-container">
+            <div class="header">
+                <h3>IRIS</h3>
+                <h5>Hello</h5>
+                <h6>I am Iris, a virtual assistant</br>How may I help you?</h6>
+            </div>
+            <div onclick="handleClose()" class="cancel-btn-container">
+                <i style="font-size:15px;color:white;" class="glyphicon glyphicon-remove"></i>
+            </div>
+        </div>
+        <div class="conversation-container">
+            <div class="avatar">
+                <i style="margin-bottom: 7px; font-size:30px;color:white;" class="glyphicon glyphicon-user"></i>
+            </div>
+            <div class="init-query">
+                <span class="faq">Frequently Asked Questions</span><i style="color: rgb(255, 81, 0);margin-left: 10px;"
+                    class="glyphicon glyphicon-share-alt"></i>
+                <div class="query-container">
+                    <span class="query"><i class="glyphicon glyphicon-asterisk asterisk"></i>can I redeem my
+                        account?</span>
+                    <span class="query"><i class="glyphicon glyphicon-asterisk asterisk"></i>can I redeem my
+                        account?</span>
+                    <span class="query"><i class="glyphicon glyphicon-asterisk asterisk"></i>can I redeem my
+                        account?</span>
+                    <span class="query"><i class="glyphicon glyphicon-asterisk asterisk"></i>can I redeem my
+                        account?</span>
+                    <span class="query"><i class="glyphicon glyphicon-asterisk asterisk"></i>can I redeem my
+                        account?</span>
+                    </ul>
+                </div>
+                <div class="button-container">
+                    <button><i style="margin-right: 5px;" class="glyphicon glyphicon-envelope"></i>Start a new
+                        Conversation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bot.js"></script>
+</body>
+
+</html>
